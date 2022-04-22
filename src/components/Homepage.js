@@ -1,19 +1,18 @@
 
 
 function Homepage(){
+
+
     return(
         <>
-            <div className="jumbo">
-                <h1>lets-talk</h1>
-            </div>
             <div className="sign">
-                <div className="sign-h">
-                    <h1>welcome</h1>
-                    <p>Here you can talk about anything you have in mind</p>
-                    <p>please sign in </p>
+                <div className='box-1'>
+                        <h1>welcome</h1>
+                        <p>Here you can talk about anything you have in mind</p>
+                        <p>please sign in </p>
+                        <a href='./signin'><button>sign in</button></a>
+                        <a href='./signup'><button>sign up</button></a>
                 </div>
-                <button>sign in</button>
-                <button>sign up</button>
             </div>
         </>
     )

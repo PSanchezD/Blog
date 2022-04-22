@@ -4,12 +4,15 @@ html{
     background-size: cover;
     height: 100vh;
 }
-
+/*this section is for the home page*/
 .jumbo{
     display: flex;
     justify-content: center;
     box-shadow: 0px 0px 20px;
     background-color: #16142d;
+}
+.jumbo a{
+    text-decoration: none;
 }
 .jumbo h1{
     font-size: 50px;
@@ -17,11 +20,143 @@ html{
     margin: 0px;
     color: #eec373;
 }
+
 .sign{
-    display: flex;
-    justify-content: center;
     margin: auto;
+    margin-top: 10%;
+    width: 650px;
+    height: 400px;
     box-shadow: 0px 0px 20px;
-    background-color: black;
-    opacity: 0.3;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-1 h1{
+    color: #eec373;
+}
+.box-1{
+    color: #eec373;
+}
+.box-1 button{
+    border: none;
+    border-radius: 20px;
+    margin: 30px;
+    width: 200px;
+    height: 40px;
+    background:linear-gradient(45deg,pink,yellow);
+    box-shadow: 1px 1px 10px;
+
+}
+
+.color{
+    color: yellow;
+}
+/*this section is for the sign in page*/
+.signin{
+    margin: auto;
+    margin-top: 10%;
+    width: 650px;
+    height: 450px;
+    box-shadow: 0px 0px 20px;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+.signin form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin button{
+    border: none;
+    border-radius: 20px;
+    margin: 15px;
+    width: 200px;
+    height: 40px;
+    background:linear-gradient(45deg,pink,yellow);
+}
+.signin input{
+    margin: 30px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 40px;
+    background-color: #ffffe4;
+}
+
+/*this section is for sign up page*/
+
+.signup{
+    margin: auto;
+    margin-top: 10%;
+    width: 650px;
+    height: 450px;
+    box-shadow: 0px 0px 20px;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup button{
+    border: none;
+    border-radius: 20px;
+    margin: 15px;
+    width: 200px;
+    height: 40px;
+    background:linear-gradient(45deg,pink,yellow);
+}
+.signup input{
+    margin: 30px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 40px;
+    background-color: #ffffe4;
+}
+
+/*this section is for the both sign in and sign up*/
+
+.redirect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redirect h1{
+    color: rgb(255, 190, 70);
+    text-shadow: 0px 0px 10px;
+}
+
+/* this section is for userPage */
+.row-c{
+    display: flex;
+}
+
+.row-1{
+    width: 300px;
+    height: 100vh;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: grey;
+}
+
+.row-2{
+    width: 100%;
+    margin: 30px;
+    border-radius: 30px;
+    background-color: #e5e4ea;
+}
+
+/*this is fo for the post section*/
+
+.post-c{
+    
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: green;
 }
